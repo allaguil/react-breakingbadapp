@@ -1,6 +1,13 @@
 (this["webpackJsonpbreaking-bad"] = this["webpackJsonpbreaking-bad"] || []).push([
-    [0], { 16: function(e, t, a) { e.exports = a.p + "static/media/logo.3795f66d.png" }, 17: function(e, t, a) { e.exports = a.p + "https://allaguil.github.io/react-breakingbadapp/static/media/spinner.235b9b3e.gif" }, 18: function(e, t, a) { e.exports = a(42) }, 41: function(e, t, a) {}, 42: function(e, t, a) { "use strict";
-            a.r(t); var n = a(0),
+    [0], {
+        16: function(e, t, a) { e.exports = a.p + "./static/media/logo.3795f66d.png" },
+        17: function(e, t, a) { e.exports = a.p + "./static/media/spinner.235b9b3e.gif" },
+        18: function(e, t, a) { e.exports = a(42) },
+        41: function(e, t, a) {},
+        42: function(e, t, a) {
+            "use strict";
+            a.r(t);
+            var n = a(0),
                 r = a.n(n),
                 c = a(13),
                 l = a.n(c),
@@ -18,12 +25,16 @@
                 h = a.n(b),
                 v = function() { return r.a.createElement("div", null, r.a.createElement("img", { src: h.a, alt: "Loading", style: { width: "200px", margin: "auto", display: "block" } })) },
                 k = function(e) { var t = e.items; return e.isLoading ? r.a.createElement(v, null) : r.a.createElement("section", { className: "cards" }, t.map((function(e) { return r.a.createElement(g, { key: e.char_id, item: e }) }))) },
-                y = (a(41), function(e) { var t = e.getQuery,
+                y = (a(41), function(e) {
+                    var t = e.getQuery,
                         a = Object(n.useState)(""),
                         c = Object(o.a)(a, 2),
                         l = c[0],
-                        i = c[1]; return r.a.createElement("section", { className: "search" }, r.a.createElement("form", null, r.a.createElement("input", { type: "text", className: "form-control", placeholder: "Search characters", value: l, onChange: function(e) { return a = e.target.value, i(a), void t(a); var a }, autoFocus: !0 }))) }),
-                N = function() { var e = Object(n.useState)([]),
+                        i = c[1];
+                    return r.a.createElement("section", { className: "search" }, r.a.createElement("form", null, r.a.createElement("input", { type: "text", className: "form-control", placeholder: "Search characters", value: l, onChange: function(e) { return a = e.target.value, i(a), void t(a); var a }, autoFocus: !0 })))
+                }),
+                N = function() {
+                    var e = Object(n.useState)([]),
                         t = Object(o.a)(e, 2),
                         a = t[0],
                         c = t[1],
@@ -34,17 +45,31 @@
                         f = Object(n.useState)(""),
                         g = Object(o.a)(f, 2),
                         b = g[0],
-                        h = g[1]; return Object(n.useEffect)((function() {
-                        (function() { var e = Object(u.a)(s.a.mark((function e() { var t; return s.a.wrap((function(e) { for (;;) switch (e.prev = e.next) {
+                        h = g[1];
+                    return Object(n.useEffect)((function() {
+                        (function() {
+                            var e = Object(u.a)(s.a.mark((function e() {
+                                var t;
+                                return s.a.wrap((function(e) {
+                                    for (;;) switch (e.prev = e.next) {
                                         case 0:
                                             return e.next = 2, d()("https://www.breakingbadapi.com/api/characters?name=".concat(b));
                                         case 2:
                                             t = e.sent, console.log(t.data), c(t.data), E(!1);
                                         case 6:
                                         case "end":
-                                            return e.stop() } }), e) }))); return function() { return e.apply(this, arguments) } })()() }), [b]), r.a.createElement("div", { className: "container" }, r.a.createElement(p, null), r.a.createElement(y, { getQuery: function(e) { return h(e) } }), r.a.createElement(k, { isLoading: m, items: a })) },
+                                            return e.stop()
+                                    }
+                                }), e)
+                            })));
+                            return function() { return e.apply(this, arguments) }
+                        })()()
+                    }), [b]), r.a.createElement("div", { className: "container" }, r.a.createElement(p, null), r.a.createElement(y, { getQuery: function(e) { return h(e) } }), r.a.createElement(k, { isLoading: m, items: a }))
+                },
                 j = document.querySelector("#root");
-            l.a.render(r.a.createElement(N, null), j) } },
+            l.a.render(r.a.createElement(N, null), j)
+        }
+    },
     [
         [18, 1, 2]
     ]

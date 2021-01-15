@@ -28,10 +28,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([{
     },
     {
         "revision": "3795f66d4a869a7faeb4b425446daf33",
-        "url": "/static/media/logo.3795f66d.png"
+        "url": "./static/media/logo.3795f66d.png"
     },
     {
         "revision": "235b9b3ed13f64542cb0792e6ae7b5c4",
-        "url": "https://allaguil.github.io/react-breakingbadapp/static/media/spinner.235b9b3e.gif"
+        "url": "./static/media/spinner.235b9b3e.gif"
     }
 ]);
