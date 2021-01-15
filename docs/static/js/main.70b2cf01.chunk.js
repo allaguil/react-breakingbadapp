@@ -1,6 +1,6 @@
 (this["webpackJsonpbreaking-bad"] = this["webpackJsonpbreaking-bad"] || []).push([
     [0], {
-        16: function(e, t, a) { e.exports = a.p + "./static/media/logo.3795f66d.png" },
+        16: function(e, t, a) { e.exports = a.p + "/react-breakingbadapp/static/media/logo.3795f66d.png" },
         17: function(e, t, a) { e.exports = a.p + "./static/media/spinner.235b9b3e.gif" },
         18: function(e, t, a) { e.exports = a(42) },
         41: function(e, t, a) {},
